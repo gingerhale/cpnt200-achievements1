@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Team",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "UpcomingPractices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event-components.practice"
+    },
+    "SeasonDuration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event-components.start-date-to-end-date"
+    },
+    "TeamInfo": {
+      "type": "richtext"
+    },
+    "coaches": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::coach.coach",
+      "inversedBy": "teams"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "inversedBy": "teams"
+    }
+  }
+}

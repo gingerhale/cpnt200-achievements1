@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "Player",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "RedShirt": {
+      "type": "boolean"
+    },
+    "Position": {
+      "type": "enumeration",
+      "enum": [
+        "Setter",
+        "Libero",
+        "Outside Hitter",
+        "Middle Blocker"
+      ]
+    },
+    "Birthday": {
+      "type": "date"
+    },
+    "Picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Height": {
+      "type": "component",
+      "repeatable": false,
+      "component": "measurement-components.height"
+    }
+  }
+}

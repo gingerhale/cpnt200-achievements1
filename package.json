@@ -1,0 +1,19 @@
+{
+  "name": "cpnt200-a2",
+  "version": "1.0.0",
+  "description": "assignemnt 2, strapi project and model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gingerhale/cpnt200-a2.git"
+  },
+  "author": "Haley Dickson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gingerhale/cpnt200-a2/issues"
+  },
+  "homepage": "https://github.com/gingerhale/cpnt200-a2#readme"
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_measurements_heights",
+  "info": {
+    "displayName": "Height",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Height": {
+      "type": "decimal"
+    },
+    "Unit": {
+      "type": "string",
+      "default": "cm"
+    }
+  }
+}

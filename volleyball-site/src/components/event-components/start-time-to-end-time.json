@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_events_start_time_to_end_times",
+  "info": {
+    "displayName": "Start time to end time",
+    "icon": "stopwatch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StartTime": {
+      "type": "time"
+    },
+    "EndTime": {
+      "type": "time"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_events_start_date_to_end_dates",
+  "info": {
+    "displayName": "Start date to end date",
+    "icon": "calendar-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    }
+  }
+}
