@@ -1,1 +1,6 @@
-# cpnt200-achievements1
+# cpnt200
+- Strapi Achievements
+- Haley Dickson
+
+## Attributes
+- Images, https://www.pexels.com/ , https://unsplash.com/
